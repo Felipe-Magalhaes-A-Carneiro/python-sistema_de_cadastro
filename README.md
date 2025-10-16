@@ -76,11 +76,12 @@ Essas práticas refletem a base de um **desenvolvedor back-end Python**, com foc
 ![alt text](logo.png)
 
 > MENU PRINCIPAL
-1 - Cadastramento de empréstimos
 
-2 - Registro de empréstimos já cadastrados
+> 1 - Cadastramento de empréstimos
 
-3 - Sair do sistema
+> 2 - Registro de empréstimos já cadastrados
+
+> 3 - Sair do sistema
 
 Ao cadastrar:
 
