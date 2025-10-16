@@ -10,7 +10,7 @@ print("""
         ----------------------------------------------------
 
 Seja bem-vindo(a).
-Cadastre um aluno(a)(usuario), o livro e a avaliação dele.
+Cadastre um aluno(a)(usuario), o livro que foi emprestado e a avaliação dele sobre o livro.
 
 ATENÇÃO: Siga as instruções em cada menu que disponibilizarmos.
 """)
