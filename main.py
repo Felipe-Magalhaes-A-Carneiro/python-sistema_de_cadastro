@@ -46,21 +46,24 @@ def main():
         elif opcao == '2':
             registro_emprestimos.registros_realizados()
             retornar_menu = input("\nDigite '0' para retornar ao MENU PRINCIPAL: ")
+
             if retornar_menu == '0':
                 print("\nRetornando MENU PRINCIPAL...")
-                return
+                continue
             else:
                 print("Apenas o digito '0'(zero) é permitido para sair e retornar ao MENU PRINCIPAL")
         
         # Condições para sair do programa: 
         elif opcao == '3':
-            print("Saindo do programa...")
+            print("\nSaindo do programa...")
+            print("\nObrigado por utilizar o nosso programa. Volte sempre!\n")
             break
         else:
-            "Digite uma das opções válidas"
+            print("Digite uma das opções válidas")
 
 if iniciar == 'y':
     main()
 else:
-    print("Saindo do programa...")
+    print("\n>>> Saindo do programa...")
+    print("\n>>> Obrigado por utilizar o nosso programa. Volte sempre!\n")
     exit()
