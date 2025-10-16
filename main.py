@@ -15,17 +15,13 @@ Cadastre um aluno(a)(usuario), o livro e a avaliação dele.
 ATENÇÃO: Siga as instruções em cada menu que disponibilizarmos.
 """)
 
-iniciar = input("Digite 'y' para começar ou outro digito para sair do programa: ")
+iniciar = input("\n>>> Digite 'y' para começar ou outro digito para sair do programa: ")
 
 def main():
     while True:
 
         print("""
-        ____________________________________________________
-        |=== BIBLIOTECA SENAI Morgan Figueiredo - Mooca ===|
-        |======= SISTEMA DE CADASTRAMENTO DE LIVROS =======|
-        ----------------------------------------------------
-        
+
         >>> MENU PRINCIPAL
             Digite o número de uma das opções abaixo:
               
@@ -36,7 +32,7 @@ def main():
 
         """)
 
-        opcao = input("Digite a sua escolha: ")
+        opcao = input("\n>>> Digite a sua escolha: ")
 
         # Condições de acesso ao menu:
         if opcao == '1':
@@ -45,7 +41,7 @@ def main():
         # Condições de acesso aos registros já cadastrados:   
         elif opcao == '2':
             registro_emprestimos.registros_realizados()
-            retornar_menu = input("\nDigite '0' para retornar ao MENU PRINCIPAL: ")
+            retornar_menu = input("\n>>> Digite '0' para retornar ao MENU PRINCIPAL: ")
 
             if retornar_menu == '0':
                 print("\nRetornando MENU PRINCIPAL...")
@@ -55,8 +51,8 @@ def main():
         
         # Condições para sair do programa: 
         elif opcao == '3':
-            print("\nSaindo do programa...")
-            print("\nObrigado por utilizar o nosso programa. Volte sempre!\n")
+            print("\n###Saindo do programa... ###")
+            print("\n### Obrigado por utilizar o nosso programa. Volte sempre! ###\n")
             break
         else:
             print("Digite uma das opções válidas")
@@ -64,6 +60,12 @@ def main():
 if iniciar == 'y':
     main()
 else:
-    print("\n>>> Saindo do programa...")
-    print("\n>>> Obrigado por utilizar o nosso programa. Volte sempre!\n")
+    print("\n### Saindo do programa... ###")
+    print("""
+        ____________________________________________________
+        |=== BIBLIOTECA SENAI Morgan Figueiredo - Mooca ===|
+        |======= SISTEMA DE CADASTRAMENTO DE LIVROS =======|
+        ----------------------------------------------------
+          
+          ### Obrigado por utilizar o nosso programa. Volte sempre! ###\n""")
     exit()
