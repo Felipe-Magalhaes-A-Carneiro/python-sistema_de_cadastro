@@ -21,7 +21,7 @@ def cadastrar_emprestimos():
             break
         else:
             nome_livro = input("\n>>> Digite o nome do LIVRO: ").title()
-            comentario = input(f"\n>>> Digite a AVALIAÇÃO do aluno sobre o livro {nome_livro}: ")
+            comentario = input(f"\n>>> Digite a AVALIAÇÃO do aluno sobre o livro '{nome_livro}': ")
             
             cadastrar = {'usuario' : nome_usuario, 'livro': nome_livro, 'avaliacao' : comentario }
             emprestimo.append(cadastrar)
