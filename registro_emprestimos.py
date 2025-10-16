@@ -11,8 +11,9 @@ def registros_realizados():
 
     if cadastro_emprestimos.emprestimo != []:
         # retorna o registro finalizado em que cada vez ele for feito:        
-        for cadastro in cadastro_emprestimos.emprestimo:
+        for i, cadastro in enumerate(cadastro_emprestimos.emprestimo):
             print(f"""
+        - Registro: {i + 1} -
         Usuário: {cadastro['usuario']}
         Livro: {cadastro['livro']}
         Avaliação: {cadastro['avaliacao']}
