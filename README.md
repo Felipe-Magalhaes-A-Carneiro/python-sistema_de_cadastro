@@ -77,13 +77,17 @@ Essas práticas refletem a base de um **desenvolvedor back-end Python**, com foc
 
 > MENU PRINCIPAL
 1 - Cadastramento de empréstimos
+
 2 - Registro de empréstimos já cadastrados
+
 3 - Sair do sistema
 
 Ao cadastrar:
 
 >> Digite o nome do USUÁRIO(aluno): Ana
+
 >> Digite o nome do LIVRO: Dom Casmurro
+
 >> Digite a AVALIAÇÃO do aluno sobre o livro Dom Casmurro: Excelente leitura!
 
 ## 🧰 Aprendizados Práticos
