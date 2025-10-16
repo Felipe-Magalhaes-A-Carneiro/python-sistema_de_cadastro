@@ -41,7 +41,7 @@ def main():
         # Condições de acesso aos registros já cadastrados:   
         elif opcao == '2':
             registro_emprestimos.registros_realizados()
-            retornar_menu = input("\n>>> Digite 'Enter' para retornar ao MENU PRINCIPAL: ")
+            retornar_menu = input("\n>>> Pressione 'Enter' para retornar ao MENU PRINCIPAL: ")
 
             if retornar_menu == ' ':
                 print("\nRetornando MENU PRINCIPAL...")
