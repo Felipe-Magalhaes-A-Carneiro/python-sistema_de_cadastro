@@ -41,18 +41,22 @@ def main():
         # Condições de acesso aos registros já cadastrados:   
         elif opcao == '2':
             registro_emprestimos.registros_realizados()
-            retornar_menu = input("\n>>> Digite '0' para retornar ao MENU PRINCIPAL: ")
+            retornar_menu = input("\n>>> Digite 'Enter' para retornar ao MENU PRINCIPAL: ")
 
-            if retornar_menu == '0':
+            if retornar_menu == ' ':
                 print("\nRetornando MENU PRINCIPAL...")
                 continue
-            else:
-                print("Apenas o digito '0'(zero) é permitido para sair e retornar ao MENU PRINCIPAL")
         
         # Condições para sair do programa: 
         elif opcao == '3':
-            print("\n###Saindo do programa... ###")
-            print("\n### Obrigado por utilizar o nosso programa. Volte sempre! ###\n")
+            print("\n*** Saindo do programa... ***")
+            print("""
+                ____________________________________________________
+                |=== BIBLIOTECA SENAI Morgan Figueiredo - Mooca ===|
+                |======= SISTEMA DE CADASTRAMENTO DE LIVROS =======|
+                ----------------------------------------------------
+                
+            ### Obrigado por utilizar o nosso programa. Volte sempre! ###\n""")
             break
         else:
             print("Digite uma das opções válidas")
@@ -67,5 +71,5 @@ else:
         |======= SISTEMA DE CADASTRAMENTO DE LIVROS =======|
         ----------------------------------------------------
           
-          ### Obrigado por utilizar o nosso programa. Volte sempre! ###\n""")
+    ### Obrigado por utilizar o nosso programa. Volte sempre! ###\n""")
     exit()
