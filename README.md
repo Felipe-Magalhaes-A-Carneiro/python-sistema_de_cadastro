@@ -1,5 +1,4 @@
-# Sistema de Cadastro de Livros — 
-# "Desafio SENAI Biblioteca"
+# Sistema de Cadastro de Livros — "DESAFIO FUNDAMENTOS DE PYHTON - SENAI"
 
 ![alt text](logo.png)
 
@@ -15,7 +14,7 @@ Criar um sistema de **gerenciamento de empréstimos de livros** para uma bibliot
 - 📘 Cadastrar usuários (alunos);
 - 📗 Registrar livros emprestados;
 - 💬 Adicionar avaliações dos livros;
-- 📄 Exibir todos os registros realizados durante a execução do programa.
+- 📄 Exibir todos os registros realizados no menu e durante a execução do programa.
 
 ---
 
@@ -74,10 +73,7 @@ Essas práticas refletem a base de um **desenvolvedor back-end Python**, com foc
 
 ## 🧠 Exemplo de Funcionamento
 
-`____________________________________________________`
-`|=== BIBLIOTECA SENAI Morgan Figueiredo - Mooca ===|`
-`|======= SISTEMA DE CADASTRAMENTO DE LIVROS =======|`
-`----------------------------------------------------`
+![alt text](logo.png)
 
 > MENU PRINCIPAL
 1 - Cadastramento de empréstimos
@@ -86,9 +82,9 @@ Essas práticas refletem a base de um **desenvolvedor back-end Python**, com foc
 
 Ao cadastrar:
 
->>> Digite o nome do USUÁRIO(aluno): Ana
->>> Digite o nome do LIVRO: Dom Casmurro
->>> Digite a AVALIAÇÃO do aluno sobre o livro Dom Casmurro: Excelente leitura!
+>> Digite o nome do USUÁRIO(aluno): Ana
+>> Digite o nome do LIVRO: Dom Casmurro
+>> Digite a AVALIAÇÃO do aluno sobre o livro Dom Casmurro: Excelente leitura!
 
 ## 🧰 Aprendizados Práticos
 
@@ -112,6 +108,10 @@ Felipe Magalhães de Araujo Carneiro
 
 💡 Interessado em Desenvolvimento Python, APIs e Integração de Sistemas
 
-🔗 LinkedIn
+🔗 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-magalhaes-arq)
 
-💾 Outros Projetos no GitHub
+💾 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Felipe-Magalhaes-A-Carneiro?tab=repositories)
+
+## Licença do logo e nome do SENAI
+Não haverá nenhum tipo de comércio com este respositório. Os nomes citados apenas são para a melhor entrega no quesito qualidade.
+O Logo que criei, e o nome "BIBLIOTECA SENAI Morgan Figueiredo - Mooca" são apenas para fins didáticos. 
